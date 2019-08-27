@@ -1,3 +1,7 @@
+#2019-08-27 - Release 0.4.3
+
+ - fixed metatadata
+
 #2017-05-03 - Release 0.4.2
 
 needing this one again... fixed some bad client settings stuff for oplocks which doesnt seem to exist in 2016 at the very least... 
