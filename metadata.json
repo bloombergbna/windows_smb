@@ -1,39 +1,50 @@
 {
-	"name": "bloombergbna-windows_smb",
-	"version": "0.4.3",
-	"author": "Bloomberg BNA",
-	"summary": "Module that will manage windows SMB shares, server and client SMB configuration",
-	"license": "Apache-2.0",
-	"source": "https://github.com/bloombergbna/windows_smb",
-	"project_page": "https://github.com/bloombergbna/windows_smb",
-	"issues_url": "https://github.com/bloombergbna/windows_smb/issues",
-	"dependencies": [{
-			"name": "puppetlabs/stdlib",
-			"version_requirement": ">= 4.6.0 < 7.0.0"
-		},{
-			"name": "puppetlabs/powershell",
-			"version_requirement": ">= 1.0.1 < 3.0.0"
-		},{
-			"name": "puppet/windowsfeature",
-			"version_requirement": ">= 1.1.0 < 4.0.0"
-		},{
-			"name": "puppetlabs/registry",
-			"version_requirement": ">= 1.0.3 < 3.0.0"
-		}
-	],
-	"tags": [
-		"smb",
-		"shares"
-	],
-	"operatingsystem_support": [{
-			"operatingsystem": "windows",
-			"operatingsystemrelease": [ 
-			  "2008R2",
-				"2012",
-				"2012R2",
-				"2016",
-				"10.x"
-			]
-		}
-	]
+  "name": "bloombergindustry-windows_smb",
+  "version": "0.4.4",
+  "author": "Bloomberg Industry Group",
+  "summary": "Module that will manage windows SMB shares, server and client SMB configuration",
+  "license": "Apache-2.0",
+  "source": "https://github.com/bloombergindustry/windows_smb",
+  "project_page": "https://github.com/bloombergindustry/windows_smb",
+  "issues_url": "https://github.com/bloombergindustry/windows_smb/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.6.0 < 7.0.0"
+    },
+    {
+      "name": "puppetlabs/powershell",
+      "version_requirement": ">= 1.0.1 < 3.0.0"
+    },
+    {
+      "name": "puppet/windowsfeature",
+      "version_requirement": ">= 1.1.0 < 4.0.0"
+    },
+    {
+      "name": "puppetlabs/registry",
+      "version_requirement": ">= 1.0.3 < 3.0.0"
+    }
+  ],
+  "tags": [
+    "smb",
+    "shares"
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2008R2",
+        "2012",
+        "2012R2",
+        "2016",
+        "10.x"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 5.5.0 < 7.0.0"
+    }
+  ]
 }
